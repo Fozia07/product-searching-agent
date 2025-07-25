@@ -1,6 +1,5 @@
 import os
 from dotenv import  load_dotenv
-# Ensure agents.py is in the same directory or install the required package if it's external
 from agents import Agent, Runner, AsyncOpenAI, OpenAIChatCompletionsModel, RunConfig, set_tracing_disabled
 from openai.types.responses import ResponseTextDeltaEvent
 import asyncio
